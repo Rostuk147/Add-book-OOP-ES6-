@@ -91,7 +91,6 @@ class Store{
         const books = Store.getBooks();
         books.splice(index, 1);
         localStorage.setItem('books', JSON.stringify(books));
-        console.log(Store.getBooks())
     }
 }
 
